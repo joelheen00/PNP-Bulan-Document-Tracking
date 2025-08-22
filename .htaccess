@@ -1,0 +1,11 @@
+# Disable directory listing
+Options -Indexes
+
+# Make sure index.php is always the default
+DirectoryIndex index.php
+
+# (Optional) Deny access to sensitive files
+<FilesMatch "\.(env|ini|log|sh|sql)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

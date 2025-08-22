@@ -1,0 +1,106 @@
+/* =========================
+   Body & Links
+========================= */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5faff; /* Lighter, softer blue */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   Container & Card Styles
+========================= */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff; /* White background for clarity */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   Login, Register, Upload Forms
+========================= */
+.login-container, 
+.register-container, 
+.upload-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff; /* Pure white instead of semi-transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.login-container h2,
+.register-container h2,
+.upload-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #004080; /* Dark blue title for contrast */
+}
+
+/* =========================
+   Inputs & Buttons
+========================= */
+input[type="text"],
+input[type="password"],
+input[type="file"],
+select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* =========================
+   Tables
+========================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #004080; /* Darker blue for headers */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f8ff; /* Light blue for alternate rows */
+}
